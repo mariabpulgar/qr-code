@@ -4,17 +4,12 @@
     margin: 0;
     padding: 0;
 }
-
-body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: F2F2F2;
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #F2F2F2;
     
 }
-
-
-
-.main-container{
-   
+.main-container{   
     display: flex;
     align-items:  center;
     flex-direction: column;
@@ -22,9 +17,8 @@ body{
     height: 100vh; 
     
 }
-
-.rectangle{
-    
+.rectangle {
+    background-color: white;
     display: flex;
     align-items:  center;
     flex-direction: column;
@@ -35,14 +29,11 @@ body{
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.4);
     
 }
-
-
 img {
     width: 288px;
     height: 288px;
     border-radius: 10px;
-    margin: 16px;
-   
+    margin: 16px;   
 }
 
 .text {
@@ -53,6 +44,7 @@ img {
 
 .text h1 {
     font-size: 22px;
+    font-weight: bold;
     height: 56px;
     text-align: center;
     margin-bottom: 16px;
@@ -61,10 +53,11 @@ img {
 
 .text p{
     font-size: 15px;
+    font-weight: regular;
     color: #7D889E;
     height: 57px;
     text-align: center;
     margin: 0 16px;
-    font-weight: lighter;
     width: 256px;
 }
+
